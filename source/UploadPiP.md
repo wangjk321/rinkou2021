@@ -1,4 +1,4 @@
-# Upload your python package to pypi
+# Upload the python package to pypi
 
 ## 1. Prepare a `__init__.py` and `__main__.py` file for your package.
 
@@ -34,7 +34,7 @@ def hello():
 >
 > For a package, the same effect can be achieved by including a `__main__.py` module, the contents of which will be executed when the module is run with `-m`.
 
-Simply speaking,  `__main__.py`  will be automatically run, when we use the whole module (here h1d).
+Simply speaking,  `__main__.py`  will be automatically run, when we use the whole module (here is `h1d` directory).
 
 I prepared the `__main__.py`  file as:
 
@@ -73,6 +73,12 @@ python h1d 1234abcd
 ```
 
 In this case,  the script will run as the `__main__`module instead of the `h1d` module
+
+So the output will be
+
+```
+1234abcd
+```
 
 ## 2.prepare the file `setup.py`
 
@@ -140,7 +146,7 @@ setup(
 
 > Use “console_script” [entry points](https://setuptools.readthedocs.io/en/latest/setuptools.html#dynamic-discovery-of-services-and-plugins) to register your script interfaces.
 
-This entry_ponits means we can directly use `h1dtest` and `h1d` in command line (**command-line interface**,**CLI** ).  
+This entry_ponits means we can directly use `h1dtest` and `h1d` in **command-line interface** (**CLI** ).  
 
 - `h1dtest`  will use the `hello` function defined in `__init__.py` 
 
