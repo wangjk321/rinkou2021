@@ -200,7 +200,7 @@ The project is already on GitHub.
 
 - Click 'Import a Project'
 
-  <img src="/Users/wangjiankang/Library/Application Support/typora-user-images/image-20210107113220741.png" alt="image-20210107113220741" style="zoom:40%;" />
+  <img src="_static/RTDimport.png" alt="image-20210107113220741" style="zoom:40%;" />
 
 - Choose the `rinkou2021` repository
 - Click "Next" --> "Build version"-->"View Docs"

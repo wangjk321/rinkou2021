@@ -13,7 +13,7 @@ Welcome to rinkou20210108's documentation!
    hello
    testMarkdown
    UploadPiP
-
+   Readthedocs
 
 Indices and tables
 ==================
