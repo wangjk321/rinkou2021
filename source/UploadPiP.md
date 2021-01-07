@@ -178,6 +178,8 @@ dist
 
 https://pypi.org/account/register/
 
+<img src = "_static/image-20210106153238332.png" style="zoom:40%;" >
+
 ## 5. Uploading the distribution archives
 
 ```python
@@ -200,7 +202,7 @@ View at:
 https://pypi.org/project/h1d/0.0.4/
 ```
 
-<img src="/Users/wangjiankang/Library/Application Support/typora-user-images/image-20210106153817752.png" alt="image-20210106153817752" style="zoom:50%;" />
+<img src="_static/image-20210106153817752.png" alt="image-20210106153817752" style="zoom:50%;" />
 
 ## 6. Try the new package
 

@@ -90,7 +90,7 @@ make html
 
 Open, the file `rinkou/build/html/index.html` with your web browser, you can see:
 
-<img src="/Users/wangjiankang/Library/Application Support/typora-user-images/image-20210106184840467.png" alt="image-20210106184840467" style="zoom:30%;" />
+<img src="_static/image-20210106184840467.png" alt="image-20210106184840467" style="zoom:30%;" />
 
 ## 3. Use the RTD(ReadTheDocs) theme
 
@@ -109,7 +109,7 @@ make html
 
 Now open the `index.html` again, the page should be:
 
-<img src="/Users/wangjiankang/Library/Application Support/typora-user-images/image-20210107102541896.png" alt="image-20210107102541896" style="zoom:30%;" />
+<img src="_static/image-20210107102541896.png" alt="image-20210107102541896" style="zoom:30%;" />
 
 ## 4. Use Markdown (instead of rst) with sphinx
 
@@ -159,7 +159,7 @@ Then, modify `index.rst` to:
 
 Now, back to `rinkou` folder, re-run `make html` and open `index.html`:
 
-<img src="/Users/wangjiankang/Library/Application Support/typora-user-images/image-20210107110738671.png" alt="image-20210107110738671" style="zoom:30%;" />
+<img src="_static/image-20210107110738671.png" alt="image-20210107110738671" style="zoom:30%;" />
 
 ## 5. Publish to ReadTheDocs
 
@@ -205,4 +205,30 @@ The project is already on GitHub.
 - Choose the `rinkou2021` repository
 - Click "Next" --> "Build version"-->"View Docs"
 - Now the document is online https://rinkou2021.readthedocs.io/en/latest/
+
+### 5.3 Update the document
+
+One wonderful advantage of "Github + ReadTheDocs", is the easy way to update.
+
+- modify the document (`hello.rst`, `testMarkdown.md`, et.al) in your local PC.
+
+- Push to github
+
+  ```shell
+  git add .
+  git commit -m "modify something"
+  git push
+  ```
+
+- ReadtheDocs will automatically update your online document
+
+### 5.4 Figure
+
+- The figure used in the document could be stored in `rinkou/source/_static` 
+
+- For example, I have `rinkou/source/_static/RTDimport.png` .So when document `rinkou/source/test.md` can use the figure by:
+
+  ```html
+  <img src="_static/RTDimport.png" alt="RTDimport" style="zoom:40%;" />
+  ```
 
