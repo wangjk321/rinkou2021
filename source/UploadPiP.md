@@ -104,7 +104,7 @@ Create the new files listed below:
 ```
 
 - `README.md` is used to store long description
-- `LISENCE` tells users who install your package the terms under which they can use your package. Choose a license according  https://choosealicense.com/
+- `LISENCE` tells users who install your package the terms under which they can use your package. Choose a license according to <https://choosealicense.com/>
 
 > `setup.py` is the build script for [setuptools](https://packaging.python.org/key_projects/#setuptools). It tells setuptools about your package (such as the name and version) as well as which code files to include.
 
@@ -140,7 +140,7 @@ setup(
 
 > Use “console_script” [entry points](https://setuptools.readthedocs.io/en/latest/setuptools.html#dynamic-discovery-of-services-and-plugins) to register your script interfaces.
 
-This entry_ponits means we can directly use `h1dtest` and `h1d` in command line.  
+This entry_ponits means we can directly use `h1dtest` and `h1d` in command line (**command-line interface**,**CLI** ).  
 
 - `h1dtest`  will use the `hello` function defined in `__init__.py` 
 
