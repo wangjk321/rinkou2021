@@ -72,7 +72,7 @@ Please note we can also run
 python h1d 1234abcd
 ```
 
-In this case,  the script will run as the `__main__`module instead of the `h1d` module
+In this case,  the script will run as the `__main__.py`module instead of the `h1d` module
 
 So the output will be
 
@@ -109,7 +109,7 @@ Create the new files listed below:
 └── setup.py
 ```
 
-- `README.md` is used to store long description
+- `README.md` is used to store long description.
 - `LISENCE` tells users who install your package the terms under which they can use your package. Choose a license according to <https://choosealicense.com/>
 
 > `setup.py` is the build script for [setuptools](https://packaging.python.org/key_projects/#setuptools). It tells setuptools about your package (such as the name and version) as well as which code files to include.

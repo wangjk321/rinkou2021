@@ -10,10 +10,10 @@ Welcome to rinkou20210108's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   UploadPiP
+   Readthedocs
    hello
    testMarkdown
-
-
 
 Indices and tables
 ==================

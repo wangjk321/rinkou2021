@@ -14,6 +14,7 @@ Welcome to rinkou20210108's documentation!
    Readthedocs
    hello
    testMarkdown
+   test
 
 Indices and tables
 ==================
