@@ -10,6 +10,7 @@ Welcome to rinkou20210108's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   SGSandMISO
    UploadPiP
    Readthedocs
    hello
