@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'rinkou20210108'
+project = 'rinkou2021'
 copyright = '2021, wangjiankang'
 author = 'wangjiankang'
 
